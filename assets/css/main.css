@@ -2378,13 +2378,15 @@ input, select, textarea {
 		  }
 		  
 		  .job-title {
-			color: #ffffff; /* Change the color to your preference */
+			color: #ffffff; 
+			font-size: 22px;/* Change the color to your preference */
 		  }
 		  
 		  .company-link {
 			font-weight: bold;
 			color: #ff5d5d; /* Change the color to your preference */
 			text-decoration: none;
+			font-size: 22px;
 		  }
 		  
 		  .company-link:hover {
@@ -2392,7 +2394,8 @@ input, select, textarea {
 		  }
 		  
 		  .location {
-			color: #ffffff; /* Change the color to your preference */
+			color: #ffffff;
+			font-size: 18px; /* Change the color to your preference */
 		  }
 		  
 /* Icon */
