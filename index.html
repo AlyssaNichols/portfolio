@@ -13,6 +13,12 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -38,22 +44,30 @@
           <h2>Menu</h2>
           <ul class="links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="generic.html">Generic</a></li>
+            <li><a href="elements.html">Elements</a></li>
             <li><a href="invoicer.html">Invoicer</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="#">Sign Up</a></li>
+            <li><a href="movie-collection.html">Movie Collection</a></li>
+            <li><a href="photo-gallery.html">Photo Gallery</a></li>
+            <li><a href="feedback.html">Feedback Survey</a></li>
           </ul>
           <a href="#" class="close">Close</a>
         </div>
       </nav>
 
       <!-- Banner -->
-      <section id="banner">
+      <section
+        id="banner"
+        style="
+          background-image: url('/images/matt-wang-MkMCsXQPCEM-unsplash.jpg');
+          background-size: cover;
+          background-position: bottom;
+        "
+      >
         <div class="inner">
           <div class="logo">
             <span><img class="icon" src="/white-computer.png" /></span>
           </div>
-          <h2 style="font-size: 46px;">Alyssa Nichols</h2>
+          <h2 style="font-size: 46px">Alyssa Nichols</h2>
           <p class="job-listing">
             <span class="job-title">Software Developer</span> &mdash;
             <a
@@ -73,7 +87,9 @@
         <!-- One -->
         <section id="one" class="wrapper spotlight style1">
           <div class="inner">
-            <a href="#" class="image" style="width: 500px"><img src="/headshot.png" alt="" /></a>
+            <a href="#" class="image" style="width: 500px"
+              ><img src="/headshot.png" alt=""
+            /></a>
             <div class="content">
               <h2 class="major" style="font-size: 26px">About Me</h2>
               <p style="font-size: 17.5px">
@@ -96,20 +112,17 @@
 
         <!-- Two -->
 
-        
-
-
         <!-- Four -->
         <section id="four" class="wrapper alt style1">
           <div class="inner">
             <h2 class="major" style="font-size: 24px">Project Portfolio</h2>
             <p>
-				Welcome to my project portfolio! Here, you'll find a showcase of
-				my work and projects. I've had the privilege to work on a diverse
-				range of projects, each with its unique challenges and solutions.
-				Feel free to explore my portfolio to see the projects I've
-				completed, and don't hesitate to reach out if you have any
-				questions or would like to discuss collaboration opportunities.
+              Welcome to my project portfolio! Here, you'll find a showcase of
+              my work and projects. I've had the privilege to work on a diverse
+              range of projects, each with its unique challenges and solutions.
+              Feel free to explore my portfolio to see the projects I've
+              completed, and don't hesitate to reach out if you have any
+              questions or would like to discuss collaboration opportunities.
             </p>
             <section class="features">
               <article>
@@ -118,63 +131,98 @@
                 /></a>
                 <h3 class="major">Invoicer</h3>
                 <p>
-                 Invoicer is my Solo Project from my time at EDA. It is a FullStack Invoice Generator Web Application that includes on Customer Management, Service Tracking, and Generates Templated Printable Invoices.
+                  Invoicer is my Solo Project from my time at EDA. It is a
+                  FullStack Invoice Generator Web Application that includes on
+                  Customer Management, Service Tracking, and Generates Templated
+                  Printable Invoices.
                 </p>
                 <a href="invoicer.html" class="special">Learn more</a>
               </article>
               <article>
-                <a href="#" class="image"
-                  ><img src="images/pic05.jpg" alt=""
+                <a href="movie-collection.html" class="image"
+                  ><img src="/images//movie-collection-main.png" alt=""
                 /></a>
                 <h3 class="major">Movie Collection</h3>
                 <p>
-                 The Movie Collection 
+                  React redux and saga project during my time at EDA. Has the
+                  ability to add new movies, edit movie details, and delete
+                  movies. Click on the movie poster to be able to navigate to
+                  details page to view or edit.
                 </p>
                 <a href="#" class="special">Learn more</a>
               </article>
               <article>
-                <a href="#" class="image"
-                  ><img src="images/pic06.jpg" alt=""
+                <a href="photo-gallery.html" class="image"
+                  ><img src="/images/gallery2.png" alt=""
                 /></a>
                 <h3 class="major">Photo Gallery</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                  nulla dignissim dapibus ultrices.
+                  This is a photo gallery of some of my favorite moments and
+                  when the photo is clicked on it flips to a view of that
+                  specific photos details. There is also the ability to add new
+                  photos as well.
                 </p>
                 <a href="#" class="special">Learn more</a>
               </article>
               <article>
-                <a href="#" class="image"
-                  ><img src="images/pic07.jpg" alt=""
+                <a href="feedback.html" class="image"
+                  ><img src="/images//feedback-main.png" alt=""
                 /></a>
                 <h3 class="major">FeedBack Survey</h3>
                 <p>
-					I created a simple feedback form that asks a user/ student various questions before showing a review of their answers. Once submitted they have the option to go through and start again.
+                  I created a simple feedback form that asks a user/ student
+                  various questions before showing a review of their answers.
+                  Once submitted they have the option to go through and start
+                  again.
                 </p>
-                <a href="/generic.html" class="special">Generic</a>
+                <a href="feedback.html" class="special">Learn more</a>
               </article>
             </section>
           </div>
         </section>
       </section>
 
-	  <!-- Three -->
-	  <section id="three" class="wrapper spotlight style3">
-		<div class="inner">
-		  <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-		  <div class="content">
-			<h2 class="major" style="font-size: 24px">Technologies</h2>
-			<p>
-			  Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-			  turpis ante, nullam sit amet turpis non, sollicitudin posuere
-			  urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-			  dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-			  cursus.
-			</p>
-			<!-- <a href="#" class="special">Learn more</a> -->
-		  </div>
-		</div>
-	  </section>
+      <!-- Three -->
+      <section id="three" class="wrapper spotlight style3">
+        <div class="inner">
+          <div class="content">
+            <h2 class="major" style="font-size: 24px">Technologies</h2>
+            <ul class="columns">
+              <li class="icon brands fa-html5"> HTML</li>
+              <li class="icon brands fa-css3"> CSS</li>
+              <li class="icon brands fa-js-square"> JavaScript</li>
+              <li class="icon brands fa-react"> React</li>
+              <li>
+                <i class="devicon-redux-original"></i>
+                 Redux
+              </li>
+              <li class="icon brands fa-node-js"> Node</li>
+              <li><i class="devicon-express-original"></i> Express</li>
+              <li>
+                <i class="devicon-postgresql-plain"></i>
+                PostgresQL
+              </li>
+              <li class="icon brands fa-git"> Git</li>
+              <li>
+                <i class="devicon-materialui-plain"></i>
+                Material UI
+              </li>
+              <li><i class="devicon-jquery-plain"></i> JQuery</li>
+			  <li>
+                <i class="devicon-dot-net-plain"></i>
+                 Dot-Net
+              </li>
+			  <li><i class="devicon-vscode-plain"></i> VS Code</li>
+              <li class="icon brands fa-github"> GitHub</li>
+     
+              <li>
+                <i class="devicon-slack-plain"></i>
+                 Slack
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <!-- Footer -->
       <section id="footer">
