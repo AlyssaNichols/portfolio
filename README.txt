@@ -1,4 +1,4 @@
-# Personal Portfolio - Alyssa Nichols -2023
+Personal Portfolio - Alyssa Nichols -2023
 
 Template: 
 
