@@ -3419,10 +3419,13 @@ input, select, textarea {
 		  
 		  .columns li {
 			padding-bottom: 10px;
-			font-size: 22px;;
+			font-size: 22px;
+			text-align: left;
 			flex: 0 0 calc(33.33% - 10px); /* Adjust the width as needed */
 			margin-right: 10px; /* Adjust the gap between columns */
 		  }
+		  
+		  
 		  
 
 /* Banner */
