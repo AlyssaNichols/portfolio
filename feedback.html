@@ -1,151 +1,260 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Invoicer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Feedback Survey</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="index.html">Feedback Survey</a></h1>
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+      <!-- Menu -->
+      <nav id="menu">
+        <div class="inner">
+          <h2>Menu</h2>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="invoicer.html">Invoicer</a></li>
+            <li><a href="movie-collection.html">Movie Collection</a></li>
+            <li><a href="photo-gallery.html">Photo Gallery</a></li>
+            <li><a href="feedback.html">Feedback Survey</a></li>
+          </ul>
+          <a href="#" class="close">Close</a>
+        </div>
+      </nav>
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Invoicer</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+      <!-- Wrapper -->
+      <section id="wrapper" style="background-color: #3a486a">
+        <header>
+          <div class="inner">
+            <h2>Feedback Survey</h2>
+            <p>
+              A survey for students in the Emerging Digital Academy coding
+              bootcamp
+            </p>
+          </div>
+        </header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="invoicer.html">Invoicer</a></li>
-								<li><a href="movie-collection.html">Movie Collection</a></li>
-								<li><a href="photo-gallery.html">Photo Gallery</a></li>
-								<li><a href="feedback.html">Feedback Survey</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+        <!-- Content -->
+        <div class="wrapper">
+          <div class="inner">
+            <h2 class="major">Feedback Survey Details</h2>
 
-			<!-- Wrapper -->
-			<section id="wrapper" style="background-color: #3A486A;">
-				<header>
-					<div class="inner">
-						<h2>Invoicer</h2>
-						<p>A simpler way to create Invoices for your small business</p>
-					</div>
-				</header>
+            <p>
+              This is a survey created by and for Emerging Digital Academy
+              coding bootcamp students. Feedback will be collected over 4 views:
+              How well are you feeling, how are you understanding the content,
+              how well do you feel supported, and any additional comments you
+              might have. Each question is asked on a scale of 1-5 except the
+              comments has an area to write additional text. In a separate
+              review page, the current feedback values are displayed along with
+              a submit button. Once all steps are complete, your app will save
+              the feedback in the database and give you an option to start again
+              and leave more feedback.
+            </p>
 
-				<!-- Content -->
-					<div class="wrapper">
-						<div class="inner">
+            <div class="wrapper">
+              <div class="inner">
+                <section>
+                  <h2 class="major" style="margin-top: 20px">
+                    Main pages of The Feedback Survey
+                  </h2>
+                  <div class="box alt">
+                    <div class="row gtr-uniform">
+                      <div class="col-6">
+                        <span class="image fit"
+                          ><img src="images/feedback/main-page.png" alt=""
+                        /></span>
+                      </div>
+                      <div class="col-6">
+                        <span class="image fit"
+                          ><img src="images/feedback/feeling.png" alt=""
+                        /></span>
+                      </div>
+                      <div class="col-6">
+                        <span class="image fit"
+                          ><img src="images/feedback/understand.png" alt=""
+                        /></span>
+                      </div>
+                      <div class="col-6">
+                        <span class="image fit"
+                          ><img src="images/feedback/support.png" alt=""
+                        /></span>
+                      </div>
+                      <div class="col-6">
+                        <span class="image fit"
+                          ><img src="images/feedback/comment.png" alt=""
+                        /></span>
+                      </div>
+                      <div class="col-6">
+                        <span class="image fit"
+                          ><img src="images/feedback/review.png" alt=""
+                        /></span>
+                      </div>
+                    </div>
+                  </div>
+                  <h2 class="major" style="margin-top: 20px">
+                    Extra Admin Capability
+                  </h2>
+                  <p>
+                    <span class="image left"
+                      ><img src="images/feedback/admin.png" alt="" /></span
+                    >
+					The Admin page is a centralized hub where all user feedback is organized in a detailed table. It provides essential information about each feedback entry, including the questions answered, comments, and submission dates. Additionally, administrators can efficiently manage feedback by deleting irrelevant entries, ensuring the quality and relevance of the feedback repository.
+                  </p>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+				  <br />
+                  <h2 class="major">Techonogies Used</h2>
+                  <ul
+                    class="columns"
+                    style="font-size: 24px; margin-bottom: -60px"
+                  >
+                    <li class="icon brands fa-html5">
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                        target="_blank"
+                        >HTML</a
+                      >
+                    </li>
+                    <li class="icon brands fa-css3">
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                        target="_blank"
+                        >CSS</a
+                      >
+                    </li>
+                    <li class="icon brands fa-js-square">
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                        target="_blank"
+                        >JavaScript</a
+                      >
+                    </li>
+                    <li class="icon brands fa-react">
+                      <a href="https://reactjs.org/" target="_blank">React</a>
+                    </li>
+                    <li>
+                      <a href="https://redux.js.org/" target="_blank"
+                        ><i class="devicon-redux-original"></i> Redux</a
+                      >
+                    </li>
+                    <li class="icon brands fa-node-js">
+                      <a href="https://nodejs.org/" target="_blank">Node</a>
+                    </li>
+                    <li>
+                      <a href="https://expressjs.com/" target="_blank"
+                        ><i class="devicon-express-original"></i> Express</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://www.postgresql.org/" target="_blank"
+                        ><i class="devicon-postgresql-plain"></i> PostgresQL</a
+                      >
+                    </li>
+                    <li class="icon brands fa-git">
+                      <a href="https://git-scm.com/" target="_blank">Git</a>
+                    </li>
+                    <li>
+                      <a href="https://material-ui.com/" target="_blank"
+                        ><i class="devicon-materialui-plain"></i> Material UI</a
+                      >
+                    </li>
 
-							<h2 class="major">What is invoicer?</h2>
+                    <li>
+                      <a href="https://code.visualstudio.com/" target="_blank"
+                        ><i class="devicon-vscode-plain"></i> VS Code</a
+                      >
+                    </li>
+                    <li class="icon brands fa-github">
+                      <a href="https://github.com/" target="_blank">GitHub</a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <div class="inner">
+          <h2 class="major" style="font-size: 24px">Get in Touch</h2>
+          <p style="font-size: 18px">
+            I'm excited to connect with you! Whether you have a project in mind,
+            want to discuss software development, or just want to chat, don't
+            hesitate to reach out. Let's start a conversation and explore the
+            possibilities together.
+          </p>
 
-							<p>This was my Solo Project from my time at EDA. Invoicer is a web application that simplifies 
-								and streamlines the process of customer management, service tracking, 
-								and generating professional printable Invoices for a small business. 
-								It was modeled after my families small local Lawn Care Company that my Mom is currently running our company 
-								today and I made this application to help her/ any non technical user 
-								to streamline their invoicing process.</p>
+          <ul class="contact">
+            <li class="icon solid fa-phone" style="font-size: 22px">
+              <a href="sms:+1-218-227-3186">(218) 227-3186</a>
+            </li>
+            <li class="icon solid fa-envelope" style="font-size: 22px">
+              <a href="mailto:alyssa.s.nichols94@gmail.com"
+                >alyssa.s.nichols94@gmail.com</a
+              >
+            </li>
+          </ul>
+          <ul class="contact">
+            <li class="icon brands fa-linkedin" style="font-size: 22px">
+              <a
+                href="https://www.linkedin.com/in/alyssa-s-nichols/"
+                target="_blank"
+                >www.linkedin.com/in/alyssa-s-nichols/</a
+              >
+            </li>
+            <li class="icon brands fa-github" style="font-size: 22px">
+              <a href="https://github.com/AlyssaNichols" target="_blank"
+                >github.com/AlyssaNichols</a
+              >
+            </li>
+            <!-- <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> -->
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Alyssa Nichols 2023</li>
+            <li>
+              Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
 
-							<div class="wrapper">
-								<div class="inner">
-
-									<section>
-										<hr>
-										<h2>Main pages of Invoicer</h2>
-										<div class="box alt">
-											<div class="row gtr-uniform">
-												<div class="col-6"><span class="image fit"><img src="images/invoicer-page/invoicer-login.png" alt="" /></span></div>
-												<div class="col-6"><span class="image fit"><img src="images/invoicer-page/invoicer1.png" alt="" /></span></div>
-												<div class="col-6"><span class="image fit"><img src="images/invoicer-page/invoicer2.png" alt="" /></span></div>
-												<div class="col-6"><span class="image fit"><img src="images/invoicer-page/invoicer3.png" alt="" /></span></div>
-												<div class="col-6"><span class="image fit"><img src="images/invoicer-page/invoicer4.png" alt="" /></span></div>
-												<div class="col-6"><span class="image fit"><img src="images/invoicer-page/invoicer6.png" alt="" /></span></div>
-												<div class="col-6"><span class="image fit"><img src="images/invoicer-page/invocier8.png" alt="" /></span></div>
-												<div class="col-6"><span class="image fit"><img src="images/invoicer-page/invoicer9.png" alt="" /></span></div>
-											</div>
-										</div>
-										<hr>
-										<h2>Extra Admin Capability</h2>
-										<p><span class="image left"><img src="images/invoicer-page/invoicer5.png" alt="" /></span>The Admin page is where you will find the last 3 of the photos above, as well as the next photo. On the main Admin page you will be greeted with a personalized message and see a monthly financial overview of how much money you have generated in invoices each month. This is where the admin user can add or remove services, customers, and view archived invoices. The Admin page is also where employees, as well as company information, can be added or removed </p><br>
-										<p><span class="image right"><img src="images/invoicer-page/invoicer7.png" alt="" /></span> The view is the customer table under the Admin page and it shows how there is ability to search and sort through the customers. There is also a form that pops up to add new customers as well as a table that shows up when you click on the archived customers button. On the customer table itself there is ability to do inline edits and archive customers that you no longer service. When you view the archived customers table there is the ability to un-archive as well to bring those customers back into the active customer list.</p>
-									</section>
-
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-			</section>
-			<section id="footer">
-				<div class="inner">
-				  <h2 class="major" style="font-size: 24px">Get in Touch</h2>
-				  <p style="font-size: 18px">
-					I'm excited to connect with you! Whether you have a project in mind,
-					want to discuss software development, or just want to chat, don't
-					hesitate to reach out. Let's start a conversation and explore the
-					possibilities together.
-				  </p>
-		
-				  <ul class="contact">
-					<li class="icon solid fa-phone" style="font-size: 22px">
-					  <a href="sms:+1-218-227-3186">(218) 227-3186</a>
-					</li>
-					<li class="icon solid fa-envelope" style="font-size: 22px">
-					  <a href="mailto:alyssa.s.nichols94@gmail.com"
-						>alyssa.s.nichols94@gmail.com</a
-					  >
-					</li>
-				  </ul>
-				  <ul class="contact">
-					<li class="icon brands fa-linkedin" style="font-size: 22px">
-					  <a
-						href="https://www.linkedin.com/in/alyssa-s-nichols/"
-						target="_blank"
-						>www.linkedin.com/in/alyssa-s-nichols/</a
-					  >
-					</li>
-					<li class="icon brands fa-github" style="font-size: 22px">
-					  <a href="https://github.com/AlyssaNichols" target="_blank"
-						>github.com/AlyssaNichols</a
-					  >
-					</li>
-					<!-- <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> -->
-				  </ul>
-				  <ul class="copyright">
-					<li>&copy; Alyssa Nichols 2023</li>
-					<li>
-					  Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>
-					</li>
-				  </ul>
-				</div>
-			  </section>
-
-	</div>
-
-<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
-</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

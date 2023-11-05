@@ -3429,6 +3429,24 @@ input, select, textarea {
 			flex: 0 0 calc(25% - 70px); /* Adjust the width as needed */
 			margin-right: 70px; /* Increase the gap between columns */
 		  }
+		  .columns-smaller {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between; /* Adjust as needed */
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			padding-bottom: 50px;
+		  }
+		  
+		  
+		  .columns-smaller li {
+			padding-bottom: 10px;
+			font-size: 22px;
+			text-align: left;
+			flex: 0 0 calc(33% - 70px); /* Adjust the width as needed */
+			margin-right: 70px; /* Increase the gap between columns */
+		  }
 		  
 		  
 		  
