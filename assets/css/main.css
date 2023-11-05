@@ -2455,7 +2455,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 51%;
 		}
 
 			.image.left img, .image.right img {
@@ -3415,15 +3415,21 @@ input, select, textarea {
 			list-style: none;
 			padding: 0;
 			margin: 0;
+			padding-bottom: 50px;
+		  }
+		  
+		  .column-header {
+			text-align: center;
 		  }
 		  
 		  .columns li {
 			padding-bottom: 10px;
 			font-size: 22px;
 			text-align: left;
-			flex: 0 0 calc(33.33% - 10px); /* Adjust the width as needed */
-			margin-right: 10px; /* Adjust the gap between columns */
+			flex: 0 0 calc(25% - 70px); /* Adjust the width as needed */
+			margin-right: 70px; /* Increase the gap between columns */
 		  }
+		  
 		  
 		  
 		  
