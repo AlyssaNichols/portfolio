@@ -3414,7 +3414,7 @@ input, select, textarea {
 		.columns {
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-between; /* Adjust as needed */
+			justify-content: space-between; /* 4 columns on the web */
 			list-style: none;
 			padding: 0;
 			margin: 0;
@@ -3429,9 +3429,22 @@ input, select, textarea {
 			padding-bottom: 10px;
 			font-size: 22px;
 			text-align: left;
-			flex: 0 0 calc(25% - 70px); /* Adjust the width as needed */
+			flex: 0 0 calc(25% - 70px); /* 4 columns on the web */
 			margin-right: 70px; /* Increase the gap between columns */
 		  }
+		  
+		  @media (max-width: 767px) {
+			/* Adjust for screens up to 767px (mobile) */
+			.columns {
+			  justify-content: center; /* Center the columns on mobile */
+			}
+		  
+			.columns li {
+			  flex: 0 0 calc(50% - 20px); /* 2 columns on mobile */
+			  margin-right: 20px; /* Increase the gap between columns on mobile */
+			}
+		  }
+		  
 		  .columns-smaller {
 			display: flex;
 			flex-wrap: wrap;
@@ -3561,6 +3574,7 @@ input, select, textarea {
 			#banner {
 				padding: 12em 3em 12.375em 3em ;
 				margin-bottom: -4.75em;
+				background-position: 50% -50%;
 			}
 
 				#banner .inner {
@@ -3574,6 +3588,7 @@ input, select, textarea {
 			#banner {
 				padding: 5em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
+				background-position: 50% -50%;
 			}
 
 				#banner .logo {
