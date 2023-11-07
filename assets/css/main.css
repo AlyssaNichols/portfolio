@@ -3463,6 +3463,17 @@ input, select, textarea {
 			flex: 0 0 calc(33% - 70px); /* Adjust the width as needed */
 			margin-right: 70px; /* Increase the gap between columns */
 		  }
+		  @media (max-width: 767px) {
+			/* Adjust for screens up to 767px (mobile) */
+			.columns-smaller {
+			  justify-content: center; /* Center the columns on mobile */
+			}
+		  
+			.columns-smaller li {
+			  flex: 0 0 calc(50% - 20px); /* 2 columns on mobile */
+			  margin-right: 20px; /* Increase the gap between columns on mobile */
+			}
+		}
 		  
 		  
 		  
