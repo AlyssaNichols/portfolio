@@ -3129,7 +3129,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			border-bottom: 0;
-			font-size: 0.8em;
+			font-size: 1em;
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
@@ -3141,7 +3141,7 @@ input, select, textarea {
 
 		#header nav {
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 0.8em;
+			font-size: .9em;
 			font-weight: 700;
 			height: 3em;
 			letter-spacing: 0.1em;
@@ -3149,7 +3149,11 @@ input, select, textarea {
 			position: absolute;
 			right: 0.7em;
 			text-transform: uppercase;
-			top: 0.7em;
+			top: 0.5em;
+
+		@media (max-width: 768px) {
+			font-size: 1.2em; /* Adjust font size for screens with a width of 768px or smaller */
+		  }
 		}
 
 			#header nav a {
@@ -3257,7 +3261,7 @@ input, select, textarea {
 					text-indent: 0;
 					text-align: right;
 					margin-left: 0;
-					padding-right: 1.25em;
+					padding-right: 1em;
 				}
 
 		}
