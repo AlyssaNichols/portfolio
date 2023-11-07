@@ -222,7 +222,7 @@ input, select, textarea {
 				font-size: 1.25em;
 				height: 2em;
 				line-height: 1.75em;
-				margin-right: 0.85em;
+				margin-right: 0.7em;
 				text-align: center;
 				text-indent: 0.15em;
 				vertical-align: middle;
@@ -230,13 +230,14 @@ input, select, textarea {
 			}
 
 			a.special:not(.button):hover:before {
-				background-color: rgba(255, 255, 255, 0.025);
+				background-color: #454858;
+				transform: scale(1.2);
 			}
 
 			a.special:not(.button):active:before {
 				background-color: rgba(255, 255, 255, 0.075);
 			}
-
+	
 	strong, b {
 		color: #ffffff;
 		font-weight: 600;
