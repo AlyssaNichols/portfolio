@@ -3442,13 +3442,15 @@ input, select, textarea {
 		  @media (max-width: 767px) {
 			/* Adjust for screens up to 767px (mobile) */
 			.columns {
-			  justify-content: center; /* Center the columns on mobile */
+			  justify-content: center;
+			  margin-bottom: -10px !important;
 			}
 		  
 			.columns li {
 			  flex: 0 0 calc(50% - 20px); /* 2 columns on mobile */
 			  margin-right: 20px; /* Increase the gap between columns on mobile */
 			}
+			
 		  }
 		  
 		  .columns-smaller {
